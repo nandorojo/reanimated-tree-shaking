@@ -2,6 +2,9 @@
 
 Here we can test `react-native-reanimated`'s bundle size.
 
+🎙 Discussion [here](https://github.com/software-mansion/react-native-reanimated/discussions/2843)
+🗺 Progress [here](https://github.com/nandorojo/reanimated-tree-shaking/issues/1)
+
 ## Instructions
 
 1. Clone the repo
