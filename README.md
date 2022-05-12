@@ -28,10 +28,10 @@ Here we can test `react-native-reanimated`'s bundle size.
    configuration.
 6. Add `pages/reanimated.js`
 
-a. Clone `pages/index.js`, use `Animated.View` instead of `View`
+  - Clone `pages/index.js`, use `Animated.View` instead of `View`
 
 7. Copy `node_modules/react-native-reanimated` -> `lib/react-native-reanimated`
 
-a. Removed all native code from `Common`, `ios` and `android` folders since these aren't used on Web
+ - Removed all native code from `Common`, `ios` and `android` folders since these aren't used on Web
 
 8. Alias imports from `react-native-reanimated` -> `lib/react-native-reanimated/src/Animated.js` in `next.config.js` so that we can debug more easily, since `node_modules` are cached and compiled.
