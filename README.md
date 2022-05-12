@@ -7,7 +7,7 @@ Here we can test `react-native-reanimated`'s bundle size.
 
 ## Instructions
 
-1. Clone the repo
+1. `git clone https://github.com/nandorojo/reanimated-tree-shaking.git`
 2. `yarn`
 3. `yarn dev` to view the website locally on `localhost:3000`
 4. `yarn analyze` to view the bundle size results (it will open automatically in
