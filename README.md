@@ -17,15 +17,6 @@ Here we can test `react-native-reanimated`'s bundle size.
 
 5. Open `lib/react-native-reanimated` and edit the `src` folder to see changes, and keep building.
 
-## Question
-
-Should we copy `react-native-reanimated`'s code into this repo directly to make
-testing easier? Currently it's in `node_modules`.
-
-If you find changes aren't getting reflected when editing
-`node_modules/react-native-reanimated`, you may need to clear the cache by
-deleting the `.next` cache folder.
-
 ## How I created this repo
 
 1. `npx create-next-app --example with-react-native-web rea-tree`
@@ -37,10 +28,10 @@ deleting the `.next` cache folder.
    configuration.
 6. Add `pages/reanimated.js`
 
-a. Clone `pages/index.js`, use `Animated.View` instead of `View`
+  - Clone `pages/index.js`, use `Animated.View` instead of `View`
 
 7. Copy `node_modules/react-native-reanimated` -> `lib/react-native-reanimated`
 
-a. Removed all native code from `Common`, `ios` and `android` folders since these aren't used on Web
+ - Removed all native code from `Common`, `ios` and `android` folders since these aren't used on Web
 
 8. Alias imports from `react-native-reanimated` -> `lib/react-native-reanimated/src/Animated.js` in `next.config.js` so that we can debug more easily, since `node_modules` are cached and compiled.
