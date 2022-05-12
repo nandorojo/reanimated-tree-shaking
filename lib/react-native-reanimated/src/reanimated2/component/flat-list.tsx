@@ -1,6 +1,6 @@
 import React from 'react';
 import { FlatList, FlatListProps, LayoutChangeEvent } from 'react-native';
-import WrappedComponents from './WrappedComponents';
+import { View } from './view';
 import createAnimatedComponent from '../../createAnimatedComponent';
 import { ILayoutAnimationBuilder } from '../layoutReanimation/animationBuilder/commonTypes';
 
@@ -15,11 +15,11 @@ interface AnimatedFlatListProps {
 const createCellRenderer = (itemLayoutAnimation?: ILayoutAnimationBuilder) => {
   const cellRenderer = (props: AnimatedFlatListProps) => {
     return (
-      <WrappedComponents.View
+      <View
         layout={itemLayoutAnimation}
         onLayout={props.onLayout}>
         {props.children}
-      </WrappedComponents.View>
+      </View>
     );
   };
 
