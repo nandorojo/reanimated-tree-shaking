@@ -7,8 +7,10 @@ Here we can test `react-native-reanimated`'s bundle size.
 1. Clone the repo
 2. `yarn`
 3. `yarn dev` to view the website locally on `localhost:3000`
-4. `yarn build` to view the bundle size results (it will open automatically in
+4. `yarn analyze` to view the bundle size results (it will open automatically in
    your browser)
+
+   a. Be sure to look in the logs at the resulting page sizes:
 
 ## Question
 
