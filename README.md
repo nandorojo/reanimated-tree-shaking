@@ -17,15 +17,6 @@ Here we can test `react-native-reanimated`'s bundle size.
 
 5. Open `lib/react-native-reanimated` and edit the `src` folder to see changes, and keep building.
 
-## Question
-
-Should we copy `react-native-reanimated`'s code into this repo directly to make
-testing easier? Currently it's in `node_modules`.
-
-If you find changes aren't getting reflected when editing
-`node_modules/react-native-reanimated`, you may need to clear the cache by
-deleting the `.next` cache folder.
-
 ## How I created this repo
 
 1. `npx create-next-app --example with-react-native-web rea-tree`
