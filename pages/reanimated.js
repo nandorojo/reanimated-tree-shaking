@@ -1,7 +1,7 @@
-import { StyleSheet } from "react-native";
-import Animated from "react-native-reanimated";
+import { StyleSheet } from 'react-native'
+import Animated from 'react-native-reanimated'
 
-const { View, Text } = Animated;
+const { View, Text } = Animated
 
 export default function Reanimated() {
   return (
@@ -14,21 +14,21 @@ export default function Reanimated() {
         Go Back
       </Text>
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: "center",
+    alignItems: 'center',
     flexGrow: 1,
-    justifyContent: "center",
+    justifyContent: 'center',
   },
   text: {
-    alignItems: "center",
+    alignItems: 'center',
     fontSize: 24,
     marginBottom: 24,
   },
   link: {
-    color: "blue",
+    color: 'blue',
   },
-});
+})

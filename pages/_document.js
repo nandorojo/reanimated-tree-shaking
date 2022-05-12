@@ -1,4 +1,4 @@
-export { default } from "@expo/next-adapter/document";
+export { default } from '@expo/next-adapter/document'
 
 // import { Children } from 'react'
 // import Document, { Html, Head, Main, NextScript } from 'next/document'

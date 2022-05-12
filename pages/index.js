@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 
-export default function App(props) {
+export default function App() {
   return (
     <View style={styles.container}>
       <Text accessibilityRole="header" style={styles.text}>
