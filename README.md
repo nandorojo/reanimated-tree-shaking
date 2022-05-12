@@ -23,10 +23,11 @@ deleting the `.next` cache folder.
 
 1. `npx create-next-app --example with-react-native-web rea-tree`
 2. `cd rea-tree`
-3. `yarn add react-native-reanimated`
+3. `yarn add react-native-reanimated @expo/next-adapter`
 4. `yarn add -D @next/bundle-analyzer next-transpile-modules`
 5. Configure [`next.config.js`](/next.config.js) and
-   [`babel.config.js`](/babel.config.js) by following the Solito starter's
+   [`babel.config.js`](/babel.config.js) by following the [Solito](https://solito.dev/starter)'s starter
    configuration.
 6. Add `pages/reanimated.js`
-7. Clone `pages/index.js`, use `Animated.View` instead of `View`
+
+  a. Clone `pages/index.js`, use `Animated.View` instead of `View`
