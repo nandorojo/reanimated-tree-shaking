@@ -1,0 +1,173 @@
+yarn build                                                 
+yarn run v1.22.5
+$ next build
+info  - Checking validity of types  
+warn  - No ESLint configuration detected. Run next lint to begin setup
+info  - Disabled SWC as replacement for Babel because of custom Babel configuration "babel.config.js" https://nextjs.org/docs/messages/swc-disabled
+info  - Using external babel configuration from /Users/fernandorojo/Developer/messing/rea-tree/babel.config.js
+Webpack Bundle Analyzer saved report to /Users/fernandorojo/Developer/messing/rea-tree/.next/analyze/client.html
+info  - Creating an optimized production build  
+Failed to compile.
+
+./node_modules/react-native-reanimated/lib/createAnimatedComponent.js
+Error: Cannot find module '@babel/plugin-transform-template-literals'
+Require stack:
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/react-native-reanimated/plugin.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/compiled/babel/bundle.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/compiled/babel/code-frame.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseScss.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack-config.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/cli/next-build.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/bin/next
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.mod._resolveFilename (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/require-hook.js:183:28)
+    at resolve (node:internal/modules/cjs/helpers:108:19)
+    at tryRequireResolve (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:157:9)
+    at resolveStandardizedNameForRequire (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:195:19)
+    at sync (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:224:12)
+    at sync (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/gensync/index.js:182:19)
+    at /Users/fernandorojo/Developer/messing/rea-tree/node_modules/gensync/index.js:210:24
+    at Generator.next (<anonymous>)
+    at resolvePlugin (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:83:17)
+
+Import trace for requested module:
+./node_modules/react-native-reanimated/lib/Animated.js
+./pages/reanimated.js
+
+./node_modules/react-native-reanimated/lib/reanimated2/Colors.js
+Error: Cannot find module '@babel/plugin-transform-template-literals'
+Require stack:
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/react-native-reanimated/plugin.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/compiled/babel/bundle.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/compiled/babel/code-frame.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseScss.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack-config.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/cli/next-build.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/bin/next
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.mod._resolveFilename (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/require-hook.js:183:28)
+    at resolve (node:internal/modules/cjs/helpers:108:19)
+    at tryRequireResolve (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:157:9)
+    at resolveStandardizedNameForRequire (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:195:19)
+    at sync (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:224:12)
+    at sync (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/gensync/index.js:182:19)
+    at /Users/fernandorojo/Developer/messing/rea-tree/node_modules/gensync/index.js:210:24
+    at Generator.next (<anonymous>)
+    at resolvePlugin (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:83:17)
+
+Import trace for requested module:
+./node_modules/react-native-reanimated/lib/reanimated2/index.js
+./node_modules/react-native-reanimated/lib/Animated.js
+./pages/reanimated.js
+
+./node_modules/react-native-reanimated/lib/reanimated2/Easing.js
+Error: Cannot find module '@babel/plugin-transform-template-literals'
+Require stack:
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/react-native-reanimated/plugin.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/compiled/babel/bundle.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/compiled/babel/code-frame.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseScss.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack-config.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/cli/next-build.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/bin/next
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.mod._resolveFilename (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/require-hook.js:183:28)
+    at resolve (node:internal/modules/cjs/helpers:108:19)
+    at tryRequireResolve (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:157:9)
+    at resolveStandardizedNameForRequire (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:195:19)
+    at sync (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:224:12)
+    at sync (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/gensync/index.js:182:19)
+    at /Users/fernandorojo/Developer/messing/rea-tree/node_modules/gensync/index.js:210:24
+    at Generator.next (<anonymous>)
+    at resolvePlugin (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:83:17)
+
+Import trace for requested module:
+./node_modules/react-native-reanimated/lib/reanimated2/index.js
+./node_modules/react-native-reanimated/lib/Animated.js
+./pages/reanimated.js
+
+./node_modules/react-native-reanimated/lib/reanimated2/NativeMethods.js
+Error: Cannot find module '@babel/plugin-transform-template-literals'
+Require stack:
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/react-native-reanimated/plugin.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/compiled/babel/bundle.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/compiled/babel/code-frame.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseScss.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack-config.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/cli/next-build.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/bin/next
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.mod._resolveFilename (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/require-hook.js:183:28)
+    at resolve (node:internal/modules/cjs/helpers:108:19)
+    at tryRequireResolve (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:157:9)
+    at resolveStandardizedNameForRequire (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:195:19)
+    at sync (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:224:12)
+    at sync (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/gensync/index.js:182:19)
+    at /Users/fernandorojo/Developer/messing/rea-tree/node_modules/gensync/index.js:210:24
+    at Generator.next (<anonymous>)
+    at resolvePlugin (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:83:17)
+
+Import trace for requested module:
+./node_modules/react-native-reanimated/lib/reanimated2/index.js
+./node_modules/react-native-reanimated/lib/Animated.js
+./pages/reanimated.js
+
+./node_modules/react-native-reanimated/lib/reanimated2/PropAdapters.js
+Error: Cannot find module '@babel/plugin-transform-template-literals'
+Require stack:
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/react-native-reanimated/plugin.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/compiled/babel/bundle.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/compiled/babel/code-frame.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/parseScss.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/webpackModuleError.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack-config.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/index.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/cli/next-build.js
+- /Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/bin/next
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.mod._resolveFilename (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/next/dist/build/webpack/require-hook.js:183:28)
+    at resolve (node:internal/modules/cjs/helpers:108:19)
+    at tryRequireResolve (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:157:9)
+    at resolveStandardizedNameForRequire (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:195:19)
+    at sync (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:224:12)
+    at sync (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/gensync/index.js:182:19)
+    at /Users/fernandorojo/Developer/messing/rea-tree/node_modules/gensync/index.js:210:24
+    at Generator.next (<anonymous>)
+    at resolvePlugin (/Users/fernandorojo/Developer/messing/rea-tree/node_modules/@babel/core/lib/config/files/plugins.js:83:17)
+
+Import trace for requested module:
+./node_modules/react-native-reanimated/lib/reanimated2/index.js
+./node_modules/react-native-reanimated/lib/Animated.js
+./pages/reanimated.js
+
+
+> Build failed because of webpack errors
+error Command failed with exit code 1.

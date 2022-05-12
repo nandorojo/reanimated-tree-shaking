@@ -1,27 +1,32 @@
-# React Native Web example
+# React Native Reanimated Tree Shaking Playground
 
-This example features how to use [react-native-web](https://github.com/necolas/react-native-web) to bring the platform-agnostic Components and APIs of React Native to the web.
+Here we can test `react-native-reanimated`'s bundle size.
 
-> **High-quality user interfaces**: React Native for Web makes it easy to create fast, adaptive web UIs in JavaScript. It provides native-like interactions, support for multiple input modes (touch, mouse, keyboard), optimized vendor-prefixed styles, built-in support for RTL layout, built-in accessibility, and integrates with React Dev Tools.
->
-> **Write once, render anywhere**: React Native for Web interoperates with existing React DOM components and is compatible with the majority of the React Native API. You can develop new components for native and web without rewriting existing code. React Native for Web can also render to HTML and critical CSS on the server using Node.js.
+## Instructions
 
-## Deploy your own
+1. Clone the repo
+2. `yarn`
+3. `yarn dev` to view the website locally on `localhost:3000`
+4. `yarn build` to view the bundle size results (it will open automatically in
+   your browser)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-react-native-web)
+## Question
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-react-native-web&project-name=with-react-native-web&repository-name=with-react-native-web)
+Should we copy `react-native-reanimated`'s code into this repo directly to make
+testing easier? Currently it's in `node_modules`.
 
-## How to use
+If you find changes aren't getting reflected when editing
+`node_modules/react-native-reanimated`, you may need to clear the cache by
+deleting the `.next` cache folder.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## How I created this repo
 
-```bash
-npx create-next-app --example with-react-native-web with-react-native-web-app
-# or
-yarn create next-app --example with-react-native-web with-react-native-web-app
-# or
-pnpm create next-app -- --example with-react-native-web with-react-native-web-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+1. `npx create-next-app --example with-react-native-web rea-tree`
+2. `cd rea-tree`
+3. `yarn add react-native-reanimated`
+4. `yarn add -D @next/bundle-analyzer next-transpile-modules`
+5. Configure [`next.config.js`](/next.config.js) and
+   [`babel.config.js`](/babel.config.js) by following the Solito starter's
+   configuration.
+6. Add `pages/reanimated.js`
+7. Clone `pages/index.js`, use `Animated.View` instead of `View`
