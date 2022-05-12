@@ -11,9 +11,11 @@ Here we can test `react-native-reanimated`'s bundle size.
 2. `yarn`
 3. `yarn dev` to view the website locally on `localhost:3000`
 4. `yarn analyze` to view the bundle size results (it will open automatically in
-   your browser)
+   your browser).
 
-   a. Be sure to look in the logs at the resulting page sizes:
+   a. Be sure to look in the logs in your terminal to see page sizes too.
+
+5. Open `lib/react-native-reanimated` and edit the `src` folder to see changes, and keep building.
 
 ## Question
 
