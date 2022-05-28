@@ -29,7 +29,7 @@ module.exports = compose(
         ...config.resolve.alias,
         'react-native-reanimated': require('path').resolve(
           __dirname,
-          'lib/react-native-reanimated/src/Animated.js'
+          'lib/react-native-reanimated/src/index.js'
         ),
       }
 
