@@ -45,4 +45,4 @@ const ReanimatedFlatlist: ReanimatedFlatListFC = ({
   );
 };
 
-export default ReanimatedFlatlist;
+export {ReanimatedFlatlist as FlatList};

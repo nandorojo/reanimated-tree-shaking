@@ -1,19 +1,16 @@
 import { StyleSheet } from 'react-native'
-import { View, Text } from 'react-native-reanimated'
-
-// const { View, Text } = Animated
+import Animated from 'react-native-reanimated'
 
 export default function Reanimated() {
   return (
-    <View style={styles.container}>
-      <Text accessibilityRole="header" style={styles.text}>
+    <Animated.View style={styles.container}>
+      <Animated.Text accessibilityRole="header" style={styles.text}>
         Reanimated Page
-      </Text>
-
-      <Text style={styles.link} accessibilityRole="link" href={`/`}>
+      </Animated.Text>
+      <Animated.Text style={styles.link} accessibilityRole="link" href={`/`}>
         Go Back
-      </Text>
-    </View>
+      </Animated.Text>
+    </Animated.View>
   )
 }
 
